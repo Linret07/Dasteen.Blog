@@ -29,7 +29,7 @@ header {
 .logo{
     display: inline-flex;
 }
-header div h1{
+.logo-first{
     height: 45px;
     color: #001858;
     font-size: 36px;
@@ -37,7 +37,7 @@ header div h1{
     font-weight: 600;
     line-height: normal;
 }
-header div h3{
+.logo-second{
     width: 48px;
     height: 27px;
     color: #6246EA;
@@ -330,7 +330,7 @@ header button a{
     width: 260px;
     height: 248px;
 }
-.card-image2 h1{
+.card-image2 a{
     width: 260px;
     color: #2B2C34;
     font-size: 20px;
@@ -338,6 +338,14 @@ header button a{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+}
+.card2:hover{
+    background: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+.card2:hover a{
+    color: #2B2C34
 }
 .card-image2 img{
     width: 260px;
