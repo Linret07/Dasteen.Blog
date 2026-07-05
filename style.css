@@ -167,6 +167,7 @@ header button a{
     line-height: normal;
     text-transform: capitalize;
     border: none;
+    cursor: pointer;
 }
 .Browse-the-category{
     width: 100%;
@@ -191,7 +192,15 @@ header button a{
     line-height: normal;
     text-transform: capitalize;
 }
-.name-and-link a:last-child{
+.name-and-link .section-title{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+.name-and-link .section-link{
     color: #2B2C34;
     text-align: right;
     font-size: 20px;
@@ -202,6 +211,7 @@ header button a{
     display: flex;
     align-items: center;
     gap: 12px;
+    margin: 0;
 }
 .name-and-link svg{
     width: 6px;
@@ -292,7 +302,16 @@ header button a{
     line-height: normal;
     text-transform: capitalize;
 }
-.article a:last-child{
+.article .section-title{
+    color: #2B2C34;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 0;
+}
+.article .section-link{
     color:  #2B2C34;
     text-align: right;
     font-size: 20px;
@@ -300,6 +319,10 @@ header button a{
     font-weight: 700;
     line-height: normal;
     text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
 }
 .article svg {
     width: 6px;
@@ -417,6 +440,7 @@ header button a{
     text-transform: capitalize;
     margin-top: 80px;
     margin-bottom: 50px;
+    cursor: pointer;
 }
 .Newsletter{
     width: 100%;
@@ -479,6 +503,7 @@ header button a{
     text-transform: capitalize;
     border: none;
     margin-left: 20px;
+    cursor: pointer;
 }
 .box input{
     width: 444px;
